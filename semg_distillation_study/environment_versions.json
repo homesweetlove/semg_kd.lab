@@ -1,0 +1,16 @@
+{
+  "recorded_utc": "2026-11-17T08:24:09.401225+00:00",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_count": 16,
+  "processor": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+  "packages": {
+    "torch": "2.14.0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "h5py": "3.16.0",
+    "matplotlib": "3.11.2",
+    "pytest": "9.1.1"
+  },
+  "scope": "Actual local environment inventory;not a promise of compatibility with other versions. CPU training;4threads per worker,max3workers. Controlled inference timing is performed after workers finish."
+}

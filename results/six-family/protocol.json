@@ -1,0 +1,97 @@
+{
+  "created_utc": "2026-11-18T00:45:36.938132+00:00",
+  "configuration": {
+    "families": [
+      "gru",
+      "mlp",
+      "transformer",
+      "lstm",
+      "tcn",
+      "cnn1d"
+    ],
+    "reused_families": [
+      "gru",
+      "mlp",
+      "transformer"
+    ],
+    "new_families": [
+      "lstm",
+      "tcn",
+      "cnn1d"
+    ],
+    "source_people": [
+      "40",
+      "53",
+      "45",
+      "26",
+      "50",
+      "32",
+      "42",
+      "33",
+      "47",
+      "31",
+      "20",
+      "34",
+      "37",
+      "52",
+      "46",
+      "44",
+      "38",
+      "21",
+      "41",
+      "25",
+      "30",
+      "28",
+      "48",
+      "43",
+      "39",
+      "51",
+      "24",
+      "29",
+      "49",
+      "22"
+    ],
+    "student_seeds": [
+      20261113,
+      20261129,
+      20261207
+    ],
+    "weights": [
+      0.0,
+      0.5
+    ],
+    "threads": 4,
+    "training": {
+      "seed": 20261113,
+      "max_epochs": 12,
+      "min_epochs": 6,
+      "patience": 4,
+      "batch_size": 512,
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    },
+    "runtime": {
+      "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+      "torch": "2.14.0+cpu",
+      "numpy": "2.5.3",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "cpu_count": 16
+    },
+    "features_sha256": "b60fe290c15d34c092c86a404c951aff6b7ec5e1dc276c7f33c2c07dfc2efbee",
+    "teacher_manifest_sha256": "fc74404ceace00ac3e38e814f7dcf4474c058e3b5c5bbb070bf0b04fdcc0bdf3",
+    "prior_student_manifest_sha256": "947815d8140eef86dee8e3699af88c4fd3752b2074c2a43a029277788accc15a",
+    "prior_audit_sha256": "f7764b55a864261430107a739df5119783124291a056bef03c98f9e0ea706a84",
+    "code_sha256": {
+      "models.py": "b0bdeb1e5c1723770ab7d1e7b37bf07ed885b0b53eb307a641a87b3fbe5453a5",
+      "data.py": "68d7bf28cd6a638bb1368b35ae1a5ca250a010e877b7da3982f086dd8e289b95",
+      "training.py": "a57eb5d52fb4d631e0eadf49011275f33c206dee248fb2febddf2b38a7cb227c",
+      "selection.py": "6ebd7426bee5a3b9966d945c0d6c64daede2c1441ca5e84b33befa7e1a2e7461",
+      "student_study.py": "e7b399d9535d6b4fe3ffbbb1fc78f90a7660643b5376c91a215ff9b03425703b",
+      "resume_personcv.py": "83fc987bda28dd4a36cf15bfb1c4938b116b6ab2a4b924bc8a62e5adfbbfb5dc",
+      "robustness.py": "bbac3693ecda1355cb26d65927f1049b7fc36446000bfa0bdb978245e4236a7c",
+      "run_robustness.py": "9000e5760396887626ef033d9398ccdc3bdf760eedf2064a475dbe98423b5128",
+      "run_six_family.py": "7ad929811ac9a7759d3ec8673ccda2f895800c17deb57e0a525a1f6336e663cd"
+    },
+    "scope": "Source-development comparison with fixed fold teachers. No independent test."
+  }
+}

@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.venv/
+work/
+*.pt
+*.npz
+*.mat
+*.zip
